@@ -2,7 +2,7 @@
   "name": "@nteract/commuter",
   "version": "5.10.0",
   "description": "share, publish, and discover notebooks",
-  "main": "lib/index.js",
+  "main": "src/index.js",
   "scripts": {
     "predev": "npm run build:server",
     "dev": "NODE_ENV=development node lib/index.js",
@@ -16,7 +16,7 @@
     "test": "jest"
   },
   "bin": {
-    "commuter": "lib/bin.js"
+    "commuter": "src/bin.js"
   },
   "jest": {
     "testRegex": "tests"
